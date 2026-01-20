@@ -2,7 +2,8 @@ from dotenv import load_dotenv
 load_dotenv()
 
 from pydantic_ai import Agent
-from models import ProductivityInput, ProductivityPlan
+from backend.models import ProductivityInput, ProductivityPlan
+
 
 agent = Agent(
     model="openrouter:mistralai/mistral-7b-instruct",

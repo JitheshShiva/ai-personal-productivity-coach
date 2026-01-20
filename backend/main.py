@@ -1,7 +1,8 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-from models import ProductivityInput
-from agent import run_productivity_agent
+from backend.models import ProductivityInput
+from backend.agent import run_productivity_agent
+
 
 app = FastAPI(title="AI Personal Productivity Coach")
 
