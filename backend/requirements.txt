@@ -1,7 +1,7 @@
 fastapi
 uvicorn
+gunicorn
 pydantic
 pydantic-ai
 python-dotenv
 httpx
-gunicorn
